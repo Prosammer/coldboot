@@ -70,10 +70,6 @@ body {
   font-style: italic;
 }
 
-#contact_hero {
-    background-image: url(_site/assets/images/fogg-no-messages-3.svg);
-}
-
 @tailwind components;
 
 @tailwind utilities;
