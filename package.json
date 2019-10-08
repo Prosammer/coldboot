@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylorbryant/jekyll-starter-tailwind.git"
+    "url": "https://github.com/Prosammer/coldboot.git"
   },
-  "author": "Taylor Bryant",
+  "author": "Sam Finton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taylorbryant/jekyll-starter-tailwind/issues"
+    "url": "https://github.com/Prosammer/coldboot/issues"
   },
   "publishConfig": {
     "access": "public"
