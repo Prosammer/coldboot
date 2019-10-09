@@ -69,6 +69,7 @@ body {
   font-weight: 100;
   font-style: italic;
 }
+
 @tailwind components;
 
 @tailwind utilities;
