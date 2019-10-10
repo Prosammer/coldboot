@@ -664,6 +664,7 @@ video {
 
 body {
   font-family: "LeagueMono", monospace;
+  overflow-x: hidden;
 }
 
 .navlinks {
