@@ -7,24 +7,40 @@
   <title>Tailwind Jekyll Starter Kit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 </head>
 
 <body>
+<!-- TODO: Add smiley friendly face, me and tucker - I tought this dog how to use a computer -->
+<!-- TODO: Advertise punctuality and scheduled meetings  -->
+<!-- TODO: Testimonials -->
+<!-- TODO: Change tech support pic to include all devices -->
+<!-- TODO: FEEL FREE TO STOP IN FOR A QUICK QUESTION: Unlike most tech support companies, I only charge you for time we actually spent together, not by the hour! -->
+<!-- TODO: Footer -->
+<!--
+Slow Computer?
+New Phone/Tablet/Computer?
+Virus Warnings?
+Popup Ads?
+iCloud Issues?
+
+Mac & PC, iPhones & Android
+-->
 
 <main>
-    <div class="bg-blue-300 pt-12 w-screen">
-    <h1 class="text-black text-4xl sm:text-6xl font-mono font-extrabold text-center m-auto w-full">ColdBoot</h1>
-    <h2 class="text-grey text-xl sm:text-2xl  font-semibold h-48 -pt-4 text-center m-auto w-full">Tech Support & Web Development</h2>
-</div>
-<nav class="items-center justify-center w-screen w-screen bg-blue-300">
-    <div class="block w-screen sm:flex sm:w-1/2 justify-center mx-auto px-6 -mb-6 ">
-            <h1 class="px-12 text-center m-auto text-2xl text-black font-medium tracking-wider bg-white rounded-lg sm:rounded-b-none sm:rounded-t-lg py-2 px-4"><a href="#">Home</a></h1>
-            <h1 class="px-12 text-center m-auto text-2xl text-black font-medium tracking-wider"><a href="/services.html">Services</a></h1>
-            <h1 class="px-12 text-center m-auto text-2xl text-black font-medium tracking-wider"><a href="/contact.html">Contact</a></h1>
-    </div>
-</nav>
+    <nav style="background-image: url(/images/map_blue.jpg);" class="bg-fixed bg-cover items-center justify-center w-screen">
+        <div class="pt-12 w-screen">
+            <h1 class="text-black text-4xl sm:text-6xl font-mono font-extrabold text-center m-auto w-full">ColdBoot</h1>
+            <h2 class="text-grey text-xl sm:text-2xl font-semibold h-24 sm:h-48 -pt-4 px-4 text-center m-auto w-full">Tech Support & Web Development</h2>
+        </div>
+        <div class="block w-screen sm:flex sm:w-1/2 justify-center mx-auto px-6 -mb-6 ">
+            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider bg-white rounded-t-lg sm:rounded-b-none sm:rounded-t-lg py-2"><a href="#">Home</a></h1>
+            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider"><a href="/about.html">About</a></h1>
+            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider"><a href="/contact.html">Contact</a></h1>
+        </div>
+    </nav>
 	<section>
-
 		<div class="container max-w-full mx-auto px-6">
 			<p class="text-center text-lg py-12 text-gray-700 mt-2 px-6">
                 We offer both in-shop and at-home services for your computers, tablets, and phones.
@@ -35,8 +51,7 @@
 					<div
 						class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:-mr-4">
 						<div class="bg-white text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
-							<div
-								class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
+							<div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                                  <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="144" height="144"
 					viewBox="0 0 48 48" style=" fill:#000000;">
 					<path fill="#455a64" d="M42,35H6V7c0-0.555,0.449-1,1-1h34c0.555,0,1,0.445,1,1V35z"></path>
@@ -49,9 +64,8 @@
 						d="M28,18c0-1.75,1-2,1-2h5c-0.772-1.764-2.951-3-5-3s-3.806,1.236-4.578,3H16c-1.105,0-2,0.895-2,2 c0,1.105,0.895,2,2,2h8.422c0.772,1.764,2.529,3,4.578,3s4.228-1.236,5-3h-5C29,20,28,19.75,28,18z">
 					</path>
 				                </svg>
-								<h1 class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">Computer Repair</h1>
+								<h1 class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">Tech Support</h1>
 							</div>
-
 							<div class="flex flex-wrap mt-3 px-6">
 								<ul>
 									<li class="flex items-center">
@@ -63,7 +77,7 @@
 												<polyline points="22 4 12 14.01 9 11.01"></polyline>
 											</svg>
 										</div>
-										<span class="text-gray-700 text-lg ml-3">Mac/PC</span>
+										<span class="text-gray-700 text-lg ml-3">New Phone?</span>
 									</li>
 									<li class="flex items-center">
 										<div class=" rounded-full p-2 fill-current text-green-700">
@@ -74,7 +88,7 @@
 												<polyline points="22 4 12 14.01 9 11.01"></polyline>
 											</svg>
 										</div>
-										<span class="text-gray-700 text-lg ml-3">No setups</span>
+										<span class="text-gray-700 text-lg ml-3">Slow Computer?</span>
 									</li>
 									<li class="flex items-center">
 										<div class=" rounded-full p-2 fill-current text-green-700">
@@ -85,17 +99,39 @@
 												<polyline points="22 4 12 14.01 9 11.01"></polyline>
 											</svg>
 										</div>
-										<span class="text-gray-700 text-lg ml-3">Speed</span>
+										<span class="text-gray-700 text-lg ml-3">Virus Warnings?</span>
 									</li>
+                                    <li class="flex items-center">
+										<div class=" rounded-full p-2 fill-current text-green-700">
+											<svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24"
+												fill="none" stroke="currentColor" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round">
+												<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+												<polyline points="22 4 12 14.01 9 11.01"></polyline>
+											</svg>
+										</div>
+										<span class="text-gray-700 text-lg ml-3">Disorganized Files?</span>
+									</li>
+                                    <li class="flex items-center">
+                                        <div class=" rounded-full p-2 fill-current text-green-700">
+                                            <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                            </svg>
+                                        </div>
+                                        <span class="text-gray-700 pr-3 text-lg ml-3">Book now for a free repair estimate!</span>
+                                    </li>
 								</ul>
 							</div>
 							<div class="block flex items-center p-8  uppercase">
-								<button class="mt-3 text-lg font-semibold bg-blue-400 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700">Book Now</button>
+								<button class="mt-3 text-lg font-semibold bg-blue-400 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/coldboot'});return false;"> Book Now</a></button>
 							</div>
 						</div>
 					</div>
 					<div class="w-full max-w-md sm:w-2/3 lg:w-1/3 sm:my-5 my-8 relative z-10 bg-white rounded-lg shadow-lg">
-                        <div class="text-sm leading-none rounded-t-lg bg-gray-200 text-gray-600 font-sans italic py-4 text-center tracking-wide">Best in the Yukon!</div>
+                        <div class="text-sm leading-none rounded-t-lg bg-gray-200 text-gray-600 font-sans italic py-4 text-center tracking-wide">Friendliest in the Yukon!</div>
 						<div class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                              <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="144" height="144"
                                     viewBox="0 0 48 48" style=" fill:#000000;">
@@ -144,7 +180,7 @@
                                     </g>
 				            </svg>
 
-							<h1 class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">One-On-One Tutorials</h1>
+							<h1 class="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">One-On-One Help</h1>
 						</div>
 						<div class="flex pl-12 justify-start sm:justify-start mt-3">
 							<ul>
@@ -157,7 +193,7 @@
 											<polyline points="22 4 12 14.01 9 11.01"></polyline>
 										</svg>
 									</div>
-									<span class="text-gray-700 text-lg ml-3"> Blah Blah </span>
+									<span class="text-gray-700 text-lg ml-3">House Calls</span>
 								</li>
 								<li class="flex items-center">
 									<div class=" rounded-full p-2 fill-current text-green-700">
@@ -168,7 +204,7 @@
 											<polyline points="22 4 12 14.01 9 11.01"></polyline>
 										</svg>
 									</div>
-									<span class="text-gray-700 text-lg ml-3">Hidden fees</span>
+									<span class="text-gray-700 text-lg ml-3">Clear Instructions</span>
 								</li>
 								<li class="flex items-center">
 									<div class=" rounded-full p-2 fill-current text-green-700">
@@ -179,13 +215,24 @@
 											<polyline points="22 4 12 14.01 9 11.01"></polyline>
 										</svg>
 									</div>
-									<span class="text-gray-700 text-lg ml-3">Original</span>
+									<span class="text-gray-700 text-lg ml-3">Respectful</span>
+								</li>
+                                <li class="flex items-center">
+									<div class=" rounded-full p-2 fill-current text-green-700">
+										<svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24"
+											fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round">
+											<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+											<polyline points="22 4 12 14.01 9 11.01"></polyline>
+										</svg>
+									</div>
+									<span class="text-gray-700 pr-3 text-lg ml-3">Complete beginners to advanced clients welcome</span>
 								</li>
 							</ul>
 						</div>
 
-						<div class="block flex items-center p-8  uppercase">
-							<button class="mt-3 text-lg font-semibold bg-blue-400 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700"> Book Now</button>
+						<div class="block flex items-center p-8 overflow-hidden uppercase">
+							<button class="mt-3 text-lg font-semibold bg-blue-400 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/coldboot'});return false;"> Book Now</a></button>
 						</div>
 					</div>
 					<div class="w-11/12 max-w-sm sm:w-3/5 lg:w-1/3 sm:my-5 my-8 relative z-0 rounded-lg shadow-lg md:-ml-4">
@@ -206,7 +253,7 @@
 												<polyline points="22 4 12 14.01 9 11.01"></polyline>
 											</svg>
 										</div>
-										<span class="text-gray-700 text-lg ml-3">Electric</span>
+										<span class="text-gray-700 text-lg ml-3">Half the price of local competition</span>
 									</li>
 									<li class="flex items-center">
 										<div class=" rounded-full p-2 fill-current text-green-700">
@@ -217,7 +264,7 @@
 												<polyline points="22 4 12 14.01 9 11.01"></polyline>
 											</svg>
 										</div>
-										<span class="text-gray-700 text-lg ml-3">Monthly</span>
+										<span class="text-gray-700 text-lg ml-3">Tailored to your needs</span>
 									</li>
 									<li class="flex items-center">
 										<div class=" rounded-full p-2 fill-current text-green-700">
@@ -228,11 +275,21 @@
 												<polyline points="22 4 12 14.01 9 11.01"></polyline>
 											</svg>
 										</div>
-										<span class="text-gray-700 text-lg ml-3">No setup</span>
+										<span class="text-gray-700 text-lg ml-3">Competitive Hosting</span>
 									</li>
+                                    <li class="flex items-center">
+                                        <div class=" rounded-full p-2 fill-current text-green-700">
+                                            <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                            </svg>
+                                        </div>
+                                        <span class="text-gray-700 pr-3 text-lg ml-3">Top Technologies: JAMStack & Wordpress</span>
+                                    </li>
 								</ul>
 							</div>
-
 							<div class="block flex items-center p-8  uppercase">
 								<button class="mt-3 text-lg font-semibold bg-blue-400 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700">Learn More</button>
 							</div>
@@ -242,9 +299,6 @@
 			</div>
 		</div>
 	</section>
-
-</body>
-
 </main>
 </body>
 </html>
