@@ -41,21 +41,19 @@
                             </div>
                         </div>
                     </address>
-                    <form class="w-screen px-6 max-w-lg m-auto justify-center items-center">
+                    <form name="contact" method="POST" class="w-screen px-6 max-w-lg m-auto justify-center items-center" netlify>
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                     First Name
                                 </label>
-                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
-                                <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" name="firstname" placeholder="Jane">
                             </div>
                             <div class="w-full md:w-1/2 px-3">
                                 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                     Last Name
                                 </label>
-                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text"
-                                    placeholder="Doe">
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" name="lastname" placeholder="Doe">
                             </div>
                         </div>
                         <div class="flex flex-wrap -mx-3 mb-2">
@@ -63,26 +61,20 @@
                                 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                     Phone Number
                                 </label>
-                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text"
-                                    placeholder="867-667-4086">
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="number" placeholder="867-667-4186">
                             </div>
                             <div class="w-full mt-4 px-3 mb-6 md:mb-0">
                                 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                     Email
                                 </label>
-                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text"
-                                    placeholder="example@gmail.com">
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="email" name="email" placeholder="example@gmail.com">
                             </div>
                         </div>
                         <div class="flex flex-wrap -mx-3 mb-6">
                             <div class="w-full mt-4 px-3">
-                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-message">
-                                    Message
-                                </label>
-                                <input class="appearance-none block w-full h-24 bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" type="email"
-                                    placeholder="Let us know how we can help!">
+                                <label>Message: <textarea placeholder="Let us know how we can help!" class="appearance-none block w-full h-24 bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="message"></textarea></label>
                             </div>
-                            <button class="bg-blue-400 m-auto hover:bg-blue-700 text-white font-bold mt-4 py-2 px-8 rounded">
+                            <button type="submit" class="bg-blue-400 m-auto hover:bg-blue-700 text-white font-bold mt-4 py-2 px-8 rounded">
                                 Send
                             </button>
                         </div>
