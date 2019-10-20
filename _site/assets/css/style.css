@@ -700,6 +700,16 @@ body {
   }
 }
 
+.current {
+  background-color: #fff;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* @apply sm:rounded-b-none; */
+  /* @apply sm:rounded-t-lg; */
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

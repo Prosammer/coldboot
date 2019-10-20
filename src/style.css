@@ -71,6 +71,14 @@ body {
   font-style: italic;
 }
 
+
 @tailwind components;
+
+.current {
+    @apply bg-white rounded-t-lg py-2;
+    /* @apply sm:rounded-b-none; */
+    /* @apply sm:rounded-t-lg; */
+}
+
 
 @tailwind utilities;

@@ -1,12 +1,15 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Tailwind Jekyll Starter Kit</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-</head>
-
 <body>
+    <nav style="background-image: url(/images/map_blue.jpg);" class="bg-fixed bg-cover items-center justify-center w-screen">
+        <div class="pt-12 w-screen">
+            <h1 class="text-black text-4xl sm:text-6xl font-mono font-extrabold text-center m-auto w-full">ColdBoot</h1>
+            <h2 class="text-grey text-xl sm:text-2xl font-semibold h-24 sm:h-48 -pt-4 px-4 text-center m-auto w-full">Tech Support & Web Development</h2>
+        </div>
+        <div class="block w-screen sm:flex sm:w-1/2 justify-center mx-auto px-6 -mb-6 ">
+            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'index.html' %}current{% endif %}"><a href="/index.html">Home</a></h1>
+            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'about.html' %}current{% endif %}"><a href="/about.html">About</a></h1>
+            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'contact.html' %}current{% endif %}"><a href="/contact.html">Contact</a></h1>
+        </div>
+    </nav>
