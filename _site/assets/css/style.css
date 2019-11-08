@@ -1148,6 +1148,10 @@ body {
   background-color: #E2ECD4;
 }
 
+.bg-footer-blue {
+  background-color: #3F4B3B;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1524,6 +1528,10 @@ body {
   background-color: #E2ECD4;
 }
 
+.hover\:bg-footer-blue:hover {
+  background-color: #3F4B3B;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1898,6 +1906,10 @@ body {
 
 .focus\:bg-map-green:focus {
   background-color: #E2ECD4;
+}
+
+.focus\:bg-footer-blue:focus {
+  background-color: #3F4B3B;
 }
 
 .bg-bottom {
@@ -2356,6 +2368,10 @@ body {
   border-color: #E2ECD4;
 }
 
+.border-footer-blue {
+  border-color: #3F4B3B;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2732,6 +2748,10 @@ body {
   border-color: #E2ECD4;
 }
 
+.hover\:border-footer-blue:hover {
+  border-color: #3F4B3B;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -3106,6 +3126,10 @@ body {
 
 .focus\:border-map-green:focus {
   border-color: #E2ECD4;
+}
+
+.focus\:border-footer-blue:focus {
+  border-color: #3F4B3B;
 }
 
 .rounded-none {
@@ -6300,6 +6324,10 @@ body {
   color: #E2ECD4;
 }
 
+.placeholder-footer-blue::placeholder {
+  color: #3F4B3B;
+}
+
 .focus\:placeholder-transparent:focus::placeholder {
   color: transparent;
 }
@@ -6674,6 +6702,10 @@ body {
 
 .focus\:placeholder-map-green:focus::placeholder {
   color: #E2ECD4;
+}
+
+.focus\:placeholder-footer-blue:focus::placeholder {
+  color: #3F4B3B;
 }
 
 .pointer-events-none {
@@ -7290,6 +7322,10 @@ body {
   color: #E2ECD4;
 }
 
+.text-footer-blue {
+  color: #3F4B3B;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -7666,6 +7702,10 @@ body {
   color: #E2ECD4;
 }
 
+.hover\:text-footer-blue:hover {
+  color: #3F4B3B;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -8040,6 +8080,10 @@ body {
 
 .focus\:text-map-green:focus {
   color: #E2ECD4;
+}
+
+.focus\:text-footer-blue:focus {
+  color: #3F4B3B;
 }
 
 .text-xs {
@@ -8922,6 +8966,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .sm\:bg-footer-blue {
+    background-color: #3F4B3B;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -9298,6 +9346,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .sm\:hover\:bg-footer-blue:hover {
+    background-color: #3F4B3B;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -9672,6 +9724,10 @@ body {
 
   .sm\:focus\:bg-map-green:focus {
     background-color: #E2ECD4;
+  }
+
+  .sm\:focus\:bg-footer-blue:focus {
+    background-color: #3F4B3B;
   }
 
   .sm\:bg-bottom {
@@ -10130,6 +10186,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .sm\:border-footer-blue {
+    border-color: #3F4B3B;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -10506,6 +10566,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .sm\:hover\:border-footer-blue:hover {
+    border-color: #3F4B3B;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -10880,6 +10944,10 @@ body {
 
   .sm\:focus\:border-map-green:focus {
     border-color: #E2ECD4;
+  }
+
+  .sm\:focus\:border-footer-blue:focus {
+    border-color: #3F4B3B;
   }
 
   .sm\:rounded-none {
@@ -14074,6 +14142,10 @@ body {
     color: #E2ECD4;
   }
 
+  .sm\:placeholder-footer-blue::placeholder {
+    color: #3F4B3B;
+  }
+
   .sm\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -14448,6 +14520,10 @@ body {
 
   .sm\:focus\:placeholder-map-green:focus::placeholder {
     color: #E2ECD4;
+  }
+
+  .sm\:focus\:placeholder-footer-blue:focus::placeholder {
+    color: #3F4B3B;
   }
 
   .sm\:pointer-events-none {
@@ -15064,6 +15140,10 @@ body {
     color: #E2ECD4;
   }
 
+  .sm\:text-footer-blue {
+    color: #3F4B3B;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -15440,6 +15520,10 @@ body {
     color: #E2ECD4;
   }
 
+  .sm\:hover\:text-footer-blue:hover {
+    color: #3F4B3B;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -15814,6 +15898,10 @@ body {
 
   .sm\:focus\:text-map-green:focus {
     color: #E2ECD4;
+  }
+
+  .sm\:focus\:text-footer-blue:focus {
+    color: #3F4B3B;
   }
 
   .sm\:text-xs {
@@ -16697,6 +16785,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .md\:bg-footer-blue {
+    background-color: #3F4B3B;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -17073,6 +17165,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .md\:hover\:bg-footer-blue:hover {
+    background-color: #3F4B3B;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -17447,6 +17543,10 @@ body {
 
   .md\:focus\:bg-map-green:focus {
     background-color: #E2ECD4;
+  }
+
+  .md\:focus\:bg-footer-blue:focus {
+    background-color: #3F4B3B;
   }
 
   .md\:bg-bottom {
@@ -17905,6 +18005,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .md\:border-footer-blue {
+    border-color: #3F4B3B;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -18281,6 +18385,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .md\:hover\:border-footer-blue:hover {
+    border-color: #3F4B3B;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -18655,6 +18763,10 @@ body {
 
   .md\:focus\:border-map-green:focus {
     border-color: #E2ECD4;
+  }
+
+  .md\:focus\:border-footer-blue:focus {
+    border-color: #3F4B3B;
   }
 
   .md\:rounded-none {
@@ -21849,6 +21961,10 @@ body {
     color: #E2ECD4;
   }
 
+  .md\:placeholder-footer-blue::placeholder {
+    color: #3F4B3B;
+  }
+
   .md\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -22223,6 +22339,10 @@ body {
 
   .md\:focus\:placeholder-map-green:focus::placeholder {
     color: #E2ECD4;
+  }
+
+  .md\:focus\:placeholder-footer-blue:focus::placeholder {
+    color: #3F4B3B;
   }
 
   .md\:pointer-events-none {
@@ -22839,6 +22959,10 @@ body {
     color: #E2ECD4;
   }
 
+  .md\:text-footer-blue {
+    color: #3F4B3B;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -23215,6 +23339,10 @@ body {
     color: #E2ECD4;
   }
 
+  .md\:hover\:text-footer-blue:hover {
+    color: #3F4B3B;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -23589,6 +23717,10 @@ body {
 
   .md\:focus\:text-map-green:focus {
     color: #E2ECD4;
+  }
+
+  .md\:focus\:text-footer-blue:focus {
+    color: #3F4B3B;
   }
 
   .md\:text-xs {
@@ -24472,6 +24604,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .lg\:bg-footer-blue {
+    background-color: #3F4B3B;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -24848,6 +24984,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .lg\:hover\:bg-footer-blue:hover {
+    background-color: #3F4B3B;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -25222,6 +25362,10 @@ body {
 
   .lg\:focus\:bg-map-green:focus {
     background-color: #E2ECD4;
+  }
+
+  .lg\:focus\:bg-footer-blue:focus {
+    background-color: #3F4B3B;
   }
 
   .lg\:bg-bottom {
@@ -25680,6 +25824,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .lg\:border-footer-blue {
+    border-color: #3F4B3B;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -26056,6 +26204,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .lg\:hover\:border-footer-blue:hover {
+    border-color: #3F4B3B;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -26430,6 +26582,10 @@ body {
 
   .lg\:focus\:border-map-green:focus {
     border-color: #E2ECD4;
+  }
+
+  .lg\:focus\:border-footer-blue:focus {
+    border-color: #3F4B3B;
   }
 
   .lg\:rounded-none {
@@ -29624,6 +29780,10 @@ body {
     color: #E2ECD4;
   }
 
+  .lg\:placeholder-footer-blue::placeholder {
+    color: #3F4B3B;
+  }
+
   .lg\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -29998,6 +30158,10 @@ body {
 
   .lg\:focus\:placeholder-map-green:focus::placeholder {
     color: #E2ECD4;
+  }
+
+  .lg\:focus\:placeholder-footer-blue:focus::placeholder {
+    color: #3F4B3B;
   }
 
   .lg\:pointer-events-none {
@@ -30614,6 +30778,10 @@ body {
     color: #E2ECD4;
   }
 
+  .lg\:text-footer-blue {
+    color: #3F4B3B;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -30990,6 +31158,10 @@ body {
     color: #E2ECD4;
   }
 
+  .lg\:hover\:text-footer-blue:hover {
+    color: #3F4B3B;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -31364,6 +31536,10 @@ body {
 
   .lg\:focus\:text-map-green:focus {
     color: #E2ECD4;
+  }
+
+  .lg\:focus\:text-footer-blue:focus {
+    color: #3F4B3B;
   }
 
   .lg\:text-xs {
@@ -32247,6 +32423,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .xl\:bg-footer-blue {
+    background-color: #3F4B3B;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -32623,6 +32803,10 @@ body {
     background-color: #E2ECD4;
   }
 
+  .xl\:hover\:bg-footer-blue:hover {
+    background-color: #3F4B3B;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -32997,6 +33181,10 @@ body {
 
   .xl\:focus\:bg-map-green:focus {
     background-color: #E2ECD4;
+  }
+
+  .xl\:focus\:bg-footer-blue:focus {
+    background-color: #3F4B3B;
   }
 
   .xl\:bg-bottom {
@@ -33455,6 +33643,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .xl\:border-footer-blue {
+    border-color: #3F4B3B;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -33831,6 +34023,10 @@ body {
     border-color: #E2ECD4;
   }
 
+  .xl\:hover\:border-footer-blue:hover {
+    border-color: #3F4B3B;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -34205,6 +34401,10 @@ body {
 
   .xl\:focus\:border-map-green:focus {
     border-color: #E2ECD4;
+  }
+
+  .xl\:focus\:border-footer-blue:focus {
+    border-color: #3F4B3B;
   }
 
   .xl\:rounded-none {
@@ -37399,6 +37599,10 @@ body {
     color: #E2ECD4;
   }
 
+  .xl\:placeholder-footer-blue::placeholder {
+    color: #3F4B3B;
+  }
+
   .xl\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
   }
@@ -37773,6 +37977,10 @@ body {
 
   .xl\:focus\:placeholder-map-green:focus::placeholder {
     color: #E2ECD4;
+  }
+
+  .xl\:focus\:placeholder-footer-blue:focus::placeholder {
+    color: #3F4B3B;
   }
 
   .xl\:pointer-events-none {
@@ -38389,6 +38597,10 @@ body {
     color: #E2ECD4;
   }
 
+  .xl\:text-footer-blue {
+    color: #3F4B3B;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -38765,6 +38977,10 @@ body {
     color: #E2ECD4;
   }
 
+  .xl\:hover\:text-footer-blue:hover {
+    color: #3F4B3B;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -39139,6 +39355,10 @@ body {
 
   .xl\:focus\:text-map-green:focus {
     color: #E2ECD4;
+  }
+
+  .xl\:focus\:text-footer-blue:focus {
+    color: #3F4B3B;
   }
 
   .xl\:text-xs {
