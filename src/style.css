@@ -61,9 +61,10 @@
   src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 }
 
-body {
+html, body {
   font-family: "LeagueMono", monospace;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 .navlinks {
