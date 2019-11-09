@@ -56,20 +56,27 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Anaheim";
   font-weight: 400;
-  src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+  src: url("https://fonts.googleapis.com/css?family=Anaheim&display=swap");
+}
+
+@font-face {
+  font-family: "Fira Sans Oblique";
+  font-weight: 200;
+  src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:200&display=swap");
+}
+
+
+
+h1,h2,h3,h4,h5 {
+    font-family: "LeagueMono", monospace;
 }
 
 html, body {
-  font-family: "LeagueMono", monospace;
   overflow-x: hidden;
   max-width: 100%;
-}
-
-.navlinks {
-  font-weight: 100;
-  font-style: italic;
+  font-family: "Fira Sans Oblique", sans-serif;
 }
 
 
