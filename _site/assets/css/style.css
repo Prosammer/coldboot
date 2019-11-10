@@ -588,7 +588,7 @@ video {
   font-weight: 100;
 
   src: url("/fonts/leaguemono-ultralight-webfont.woff2") format("woff2"),
-    url("/fonts/leaguemono-ultralight-webfont.woff") format("woff");
+        url("/fonts/leaguemono-ultralight-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -597,7 +597,7 @@ video {
   font-weight: 200;
 
   src: url("/fonts/leaguemono-thin-webfont.woff2") format("woff2"),
-    url("/fonts/leaguemono-thin-webfont.woff") format("woff");
+        url("/fonts/leaguemono-thin-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -606,7 +606,7 @@ video {
   font-weight: 300;
 
   src: url("../fonts/leaguemono-light-webfont.woff2") format("woff2"),
-    url("../fonts/leaguemono-light-webfont.woff") format("woff");
+        url("../fonts/leaguemono-light-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -615,7 +615,7 @@ video {
   font-weight: 400;
 
   src: url("../fonts/leaguemono-regular-webfont.woff2") format("woff2"),
-    url("../fonts/leaguemono-regular-webfont.woff") format("woff");
+        url("../fonts/leaguemono-regular-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -624,7 +624,7 @@ video {
   font-weight: 500;
 
   src: url("../fonts/leaguemono-medium-webfont.woff2") format("woff2"),
-    url("../fonts/leaguemono-medium-webfont.woff") format("woff");
+        url("../fonts/leaguemono-medium-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -633,7 +633,7 @@ video {
   font-weight: 600;
 
   src: url("../fonts/leaguemono-semibold-webfont.woff2") format("woff2"),
-    url("../fonts/leaguemono-semibold-webfont.woff") format("woff");
+        url("../fonts/leaguemono-semibold-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -642,7 +642,7 @@ video {
   font-weight: 700;
 
   src: url("../fonts/leaguemono-bold-webfont.woff2") format("woff2"),
-    url("../fonts/leaguemono-bold-webfont.woff") format("woff");
+        url("../fonts/leaguemono-bold-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -651,33 +651,75 @@ video {
   font-weight: 800;
 
   src: url("../fonts/leaguemono-extrabold-webfont.woff2") format("woff2"),
-    url("../fonts/leaguemono-extrabold-webfont.woff") format("woff");
+        url("../fonts/leaguemono-extrabold-webfont.woff") format("woff");
 }
 
+/* anaheim-regular - latin */
+
 @font-face {
-  font-family: "Anaheim";
+  font-family: 'Anaheim';
+
+  font-style: normal;
 
   font-weight: 400;
 
-  src: url("https://fonts.googleapis.com/css?family=Anaheim&display=swap");
+  src: url('../fonts/anaheim-v7-latin-regular.eot');
+
+  /* IE9 Compat Modes */
+
+  src: local('Anaheim'), local('Anaheim-Regular'),
+        url('../fonts/anaheim-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/anaheim-v7-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/anaheim-v7-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/anaheim-v7-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/anaheim-v7-latin-regular.svg#Anaheim') format('svg');
+
+  /* Legacy iOS */
+}
+
+/* laila-300 - latin */
+
+@font-face {
+  font-family: 'Laila';
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  src: local('Laila Light'), local('Laila-Light'),
+       /* url('../fonts/laila-v6-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ */
+       url('../fonts/laila-v6-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       /* url('../fonts/laila-v6-latin-300.woff') format('woff'), /* Modern Browsers */ */
+
+  /* url('../fonts/laila-v6-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+
+  /* url('../fonts/laila-v6-latin-300.svg#Laila') format('svg'); Legacy iOS */
 }
 
 @font-face {
-  font-family: "Fira Sans Oblique";
+  font-family: "Fira Sans Condensed";
 
-  font-weight: 200;
+  font-weight: 900;
 
-  src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:200&display=swap");
+  src: url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:900i&display=swap");
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h5 {
   font-family: "LeagueMono", monospace;
+}
+
+h4 {
+  font-family: "Laila", serif;
 }
 
 html, body {
   overflow-x: hidden;
   max-width: 100%;
-  font-family: "Fira Sans Oblique", sans-serif;
+  font-family: "Laila", serif;
 }
 
 .container {
@@ -716,6 +758,12 @@ html, body {
   padding-bottom: 0.5rem;
   /* @apply sm:rounded-b-none; */
   /* @apply sm:rounded-t-lg; */
+}
+
+.check_text {
+  color: #4a5568;
+  font-weight: 200;
+  margin-left: 0.75rem;
 }
 
 .sr-only {

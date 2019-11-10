@@ -1,6 +1,33 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            if (window.screen.width < 640) {
+                if ($('#navlink1').hasClass('current')) {
+                    $('#navlink1').removeClass('current') && $('#navlink1').addClass('text-white');
+                 }
+                 else if ($('#navlink2').hasClass('current')) {
+                    $('#navlink2').removeClass('current') && $('#navlink2').addClass('text-white');
+                 }
+                 else if ($('#navlink3').hasClass('current')) {
+                    $('#navlink3').removeClass('current') && $('#navlink3').addClass('text-white');
+                 }
+            } else {
+            }
+        });
+    </script>
+</head>
+
 <body>
     <nav style="background-image: url(/images/map_blue.jpg);" class="bg-fixed bg-cover items-center justify-center w-screen">
         <div class="pt-12 w-screen">
@@ -8,8 +35,8 @@
             <h2 class="text-grey text-xl sm:text-2xl font-semibold h-24 sm:h-48 pt-4 -mt-5 text-center m-auto w-full">Tech Support & Web Development</h2>
         </div>
         <div class="block w-screen sm:flex sm:w-1/2 justify-center mx-auto px-6 -mb-6 ">
-            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'index.html' %}current{% endif %}"><a href="/index.html">Home</a></h1>
-            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'about.html' %}current{% endif %}"><a href="/about.html">About</a></h1>
-            <h3 class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'contact.html' %}current{% endif %}"><a href="/contact.html">Contact</a></h1>
+            <h3 id="navlink1" class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'index.html' %}current{% endif %}"><a href="/index.html">Home</a></h1>
+            <h3 id="navlink2" class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'about.html' %}current{% endif %}"><a href="/about.html">About</a></h1>
+            <h3 id="navlink3" class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 {% if page.name == 'contact.html' %}current{% endif %}"><a href="/contact.html">Contact</a></h1>
         </div>
     </nav>
