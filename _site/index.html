@@ -15,29 +15,26 @@
             if (window.screen.width < 640) {
                 if ($('#navlink1').hasClass('current')) {
                     $('#navlink1').removeClass('current') && $('#navlink1').addClass('text-white');
-                 }
-                 else if ($('#navlink2').hasClass('current')) {
+                } else if ($('#navlink2').hasClass('current')) {
                     $('#navlink2').removeClass('current') && $('#navlink2').addClass('text-white');
-                 }
-                 else if ($('#navlink3').hasClass('current')) {
+                } else if ($('#navlink3').hasClass('current')) {
                     $('#navlink3').removeClass('current') && $('#navlink3').addClass('text-white');
-                 }
-            } else {
-            }
+                }
+            } else {}
         });
     </script>
 </head>
 
 <body>
-    <nav style="background-image: url(/images/map_blue.jpg);" class="bg-fixed bg-cover items-center justify-center w-screen">
-        <div class="pt-12 w-screen">
+    <nav style="background-image: url(/images/map_blue.jpg);" class="bg-fixed bg-cover items-center justify-center w-full">
+        <div class="pt-12 w-full">
             <h1 class="text-black text-4xl sm:text-6xl font-mono font-extrabold text-center m-auto w-full">ColdBoot</h1>
             <h2 class="text-grey text-xl sm:text-2xl font-semibold h-24 sm:h-48 pt-4 -mt-5 text-center m-auto w-full">Tech Support & Web Development</h2>
         </div>
-        <div class="block w-screen sm:flex sm:w-1/2 justify-center mx-auto px-6 -mb-6 ">
-            <h3 id="navlink1" class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 current"><a href="/index.html">Home</a></h1>
-            <h3 id="navlink2" class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 "><a href="/about.html">About</a></h1>
-            <h3 id="navlink3" class="px-5 text-center m-auto text-2xl text-black font-medium tracking-wider sm:w-48 "><a href="/contact.html">Contact</a></h1>
+        <div class="block w-full sm:flex sm:w-1/2 justify-center mx-auto px-6 -mb-6 ">
+            <h3 id="navlink1" class="px-5 text-center m-auto text-2xl font-thin tracking-wider sm:w-48 current"><a href="/index.html">Home</a></h1>
+            <h3 id="navlink2" class="px-5 text-center m-auto text-2xl font-thin tracking-wider sm:w-48 "><a href="/about.html">About</a></h1>
+            <h3 id="navlink3" class="px-5 text-center m-auto text-2xl font-thin tracking-wider sm:w-48 "><a href="/contact.html">Contact</a></h1>
         </div>
     </nav>
 
@@ -60,7 +57,7 @@ Mac & PC, iPhones & Android
 -->
 <section>
     <div class="container max-w-full mx-auto px-6">
-        <h4 class="text-center sm:text-xl font-light pt-16 text-gray-700 px-4 sm:px-6">
+        <h4 class="title_4 text-center sm:text-xl font-light pt-16 text-gray-700 px-4 sm:px-6">
             We offer both in-shop and at-home services for your computers, tablets, and phones.
         </h4>
         <div class="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
@@ -83,43 +80,43 @@ Mac & PC, iPhones & Android
                         <div class="flex flex-wrap mt-3 px-6">
                             <ul>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class="rounded-full py-2 fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class=" check_text">New Phone?</span>
+                                    <p class="check_text">New Phone?</p>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class="rounded-full py-2 fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="check_text">Slow Computer?</span>
+                                    <p class="check_text">Slow Computer?</p>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class=" rounded-full fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="check_text">Virus Warnings?</span>
+                                    <p class="check_text">Virus Warnings?</p>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class=" rounded-full py-2 fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="check_text">Disorganized Files?</span>
+                                    <p class="check_text">Disorganized Files?</p>
                                 </li>
                                 <!-- <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class=" rounded-full py-2 fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24"
                                             fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round">
@@ -127,7 +124,7 @@ Mac & PC, iPhones & Android
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="text-gray-700 pr-3 ml-3">Book now for a free repair estimate!</span>
+                                    <p class="text-gray-700 pr-3 ml-3">Book now for a free repair estimate!</p>
                                 </li> -->
                             </ul>
                         </div>
@@ -181,40 +178,40 @@ Mac & PC, iPhones & Android
                     <div class="flex pl-12 justify-start sm:justify-start mt-3">
                         <ul>
                             <li class="flex items-center">
-                                <div class="rounded-full p-2 fill-current text-green-700">
+                                <div class="rounded-full py-2 fill-current text-green-700">
                                     <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                     </svg>
                                 </div>
-                                <span class="check_text">House Calls</span>
+                                <p class="check_text">House Calls</p>
                             </li>
                             <li class="flex items-center">
-                                <div class=" rounded-full p-2 fill-current text-green-700">
+                                <div class=" rounded-full py-2 fill-current text-green-700">
                                     <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                     </svg>
                                 </div>
-                                <span class="check_text">Hands-on Learning</span>
+                                <p class="check_text">Hands-on Learning</p>
                             </li>
                             <li class="flex items-center">
-                                <div class=" rounded-full p-2 fill-current text-green-700">
+                                <div class=" rounded-full py-2 fill-current text-green-700">
                                     <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                     </svg>
                                 </div>
-                                <span class="check_text">Respectful</span>
+                                <p class="check_text">Respectful</p>
                             </li>
                             <li class="flex items-center">
-                                <div class=" rounded-full p-2 fill-current text-green-700">
+                                <div class=" rounded-full py-2 fill-current text-green-700">
                                     <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                         <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                     </svg>
                                 </div>
-                                <span class="check_text pr-3">Complete beginners to advanced clients welcome</span>
+                                <p class="check_text pr-3">Beginner to advanced tutorials</p>
                             </li>
                         </ul>
                     </div>
@@ -233,40 +230,40 @@ Mac & PC, iPhones & Android
                         <div class="flex flex-wrap mt-3 px-6">
                             <ul>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class=" rounded-full py-2 fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="check_text">Half the price of local competition</span>
+                                    <p class="check_text">Half the price of local competition</p>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class=" rounded-full py-2 fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="check_text">Tailored to your needs</span>
+                                    <p class="check_text">Tailored to your needs</p>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class=" rounded-full py-2 fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="check_text">Competitive Hosting</span>
+                                    <p class="check_text">Competitive Hosting</p>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class=" rounded-full p-2 fill-current text-green-700">
+                                    <div class=" rounded-full fill-current text-green-700">
                                         <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                                         </svg>
                                     </div>
-                                    <span class="check_text pr-3">Top Technologies: JAMStack & Wordpress</span>
+                                    <p class="check_text pr-3">JAMStack & Wordpress</p>
                                 </li>
                             </ul>
                         </div>
@@ -295,20 +292,19 @@ Mac & PC, iPhones & Android
 </section>
 </body>
 </html> -->
-<div class="w-full bg-brand_blue-800 p-8">
-    <div class="sm:flex mb-4">
-        <div class="w-1/4 h-auto">
-            <div class="mb-2 text-white"></div>
-            <ul class="leading-normal">
+<div class="w-full bg-brand_blue-800 h-32">
+    <div class="sm:flex h-full">
+        <div class="w-1/4 pt-12 px-4">
+            <ul class="leading-normal ">
                 <li class="text-white">Facebook</li>
                 <li class="text-white"><a href="https://github.com/Prosammer/">Github</a></li>
                 <li class="text-white">© Coldboot Technology </li>
             </ul>
         </div>
-        <div class="block w-1/2">
+        <div class="w-1/2">
         </div>
-        <div class="block w-1/4 text-white text-center">
-            <p>Hosted for free using Github Pages + Netlify + TailwindCSS</p>
+        <div class="text-right w-1/4 pt-12 px-4 text-white">
+            <p><br>Hosted on Github Pages.<br> Built with Netlify + Jekyll + TailwindCSS.</p>
         </div>
     </div>
 </div>

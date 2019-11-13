@@ -123,5 +123,9 @@ html, body {
     @apply text-gray-700 font-thin ml-3;
 }
 
+.gradient {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
 
 @tailwind utilities;
