@@ -839,16 +839,16 @@ h1, h2, h3, h5 {
 }
 
 h4 {
-  font-family: "Laila", serif;
+  font-family: "Work Sans", serif;
 }
 
 html, body {
   overflow-x: hidden;
   max-width: 100%;
-  font-family: "Laila", serif;
+  font-family: "Work Sans", serif;
 }
 
-#moved {
+.anaheim {
   font-family: Anaheim;
 }
 
@@ -891,7 +891,6 @@ html, body {
 }
 
 .check_text {
-  color: #4a5568;
   font-weight: 200;
   margin-left: 0.75rem;
 }
