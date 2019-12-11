@@ -4,6 +4,7 @@ module.exports = {
             colors: {
                 'map-green': '#E2ECD4',
                 'footer-blue': '#3F4B3B',
+                'arrow_blue': '#1A88E2',
                 'brand_blue': {
                     100: '#EFF7FD',
                     200: '#D8ECFB',
